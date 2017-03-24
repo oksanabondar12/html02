@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+
+<body>
+    <form method="POST" action="action="https://formspree.io/your@email.com"">
+        <label>Client name:
+      <input type="text" name="client-name" required>
+      </label>
+      <br>
+      <label for="client-email">Client email:</label>
+      <input type="email" name="client email" id="client-email" required>
+      <br>
+      <label>Car plate number:
+      <input type="text" name="plate-number" required pattern="[A-Z]{2}[/d][A-Z]{2}"
+      placeholder="AA1234BB" title="AA1234BB">
+      </label>
+      <br>
+   <label>Your question:
+       <textarea name="question"></textarea>
+   </label>
+   <br>
+   <input type="submit">
+   <input type="reset">
+    </form>
+</body>
+</html>
